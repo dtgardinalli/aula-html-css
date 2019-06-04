@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+nav {
+    background-color: rgb(132, 132, 223);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a{
+color: white;
+text-decoration: none;
+font-weight: bolder;
+font-size: 18pt;
+}
+nav a:nth-child (1) {
+color: gray;
+}
+nav a:hover{
+    font-size: 18.5pt;
+}
