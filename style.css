@@ -33,4 +33,37 @@ header h1{
     color: white;
 margin-top: 100px;
 }
+
+section{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section div{
+      border: 20px solid rgb(132, 132, 223);
+      border-radius: 100px;
+        width: 200px;
+        height: 100%;
+        display: flex;
+       flex-direction: column; 
+       justify-content: space-around;
+       align-items: center;
+       margin-top: 20px;
+}
+section div input::placeholder{
+    color: black;
+    font-size: 10pt;
+    font-weight: bold;
+}
+section div input:focus{
+    background-color: rgb(79, 79, 241);
+}
+section div button{
+  border: none;
+  border: 1px 
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
 }
